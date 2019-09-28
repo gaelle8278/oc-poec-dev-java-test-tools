@@ -18,7 +18,7 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Logger name="dev.gaelle_rauffet.test_java_tools" level="info" additivity="true">
+        <Logger name="dev.gaelle_rauffet.test_java_tools" level="info" additivity="false">
             <AppenderRef ref="LogToRollingFile"/>
         </Logger>
         <Root level="WARN">

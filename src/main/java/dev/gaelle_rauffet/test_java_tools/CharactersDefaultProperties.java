@@ -19,7 +19,7 @@ public class CharactersDefaultProperties {
 	/**
 	 * Loads properties from a .properties file in classpath
 	 */
-	public void LoadProperties() {
+	public void loadProperties() {
 		try {
 			InputStream input = CharactersDefaultProperties.class.getClassLoader().getResourceAsStream("application.properties");
 

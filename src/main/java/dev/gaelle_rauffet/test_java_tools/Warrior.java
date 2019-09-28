@@ -4,11 +4,12 @@ package dev.gaelle_rauffet.test_java_tools;
 
 public class Warrior extends Character implements CharacterActions{
 
-	public Warrior(int level, int strength, int agility, int intelligence) {
-		super(level, strength, agility, intelligence);
+	public Warrior() {
+		super();
 		
 	}
 
+	
 	@Override
 	public void specialAttack() {
 		
@@ -18,5 +19,7 @@ public class Warrior extends Character implements CharacterActions{
 	public void basicAttack() {
 		
 	}
+	
+	
 
 }

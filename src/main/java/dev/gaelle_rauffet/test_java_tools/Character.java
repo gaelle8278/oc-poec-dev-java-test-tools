@@ -14,12 +14,37 @@ public abstract class Character {
 	private int intelligence;
 	
 	
-	public Character (int level, int strength, int agility, int intelligence) {
+	public void setCharacterProp(int level, int strength, int agility, int intelligence) {
 		this.level = level;
 		this.life = 5 * this.level;
 		this.strength = strength;
 		this.agility = agility;
 		this.intelligence = intelligence;
+	}
+
+
+	public int getLevel() {
+		return level;
+	}
+
+
+	public int getLife() {
+		return life;
+	}
+
+
+	public int getStrength() {
+		return strength;
+	}
+
+
+	public int getAgility() {
+		return agility;
+	}
+
+
+	public int getIntelligence() {
+		return intelligence;
 	}
 	
 	
